@@ -6,6 +6,6 @@ for elem in sys.argv[1:]:
     mean = mean + float(elem)
 
 mean = mean / float(len(sys.argv) - 1)
-print(mean)
+print("Thoust's mean be:", mean)
 word = input("insert a descriptor: ")
 print("steve is a", word)
