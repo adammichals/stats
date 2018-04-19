@@ -7,3 +7,5 @@ for elem in sys.argv[1:]:
 
 mean = mean / float(len(sys.argv) - 1)
 print(mean)
+word = input("insert a descriptor: ")
+print("steve is a", word)
